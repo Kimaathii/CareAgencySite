@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/dark-theme.css')}}">
-        <title>Teli - Digital Healthcare & Medical Services HTML Template</title>
+        <title>CynCare Health Ltd</title>
         <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
     </head>
 
@@ -74,7 +74,7 @@
         <!-- Back-to-top button End -->
 
         <!-- Link of JS files -->
-        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+        <script data-cfasync="false" src="{{ asset('assets/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script><script src="assets/js/jquery.min.js"></script>
         <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
         <script src="{{asset('assets/js/form-validator.min.js')}}"></script>
         <script src="{{asset('assets/js/contact-form-script.js')}}"></script>

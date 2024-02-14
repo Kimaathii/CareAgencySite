@@ -9,10 +9,10 @@ class PageController extends Controller
     function home(){
         return view('home');
     }
-    function about(){
-        return view('about');
+    function returnMissionPage(){
+        return view('nav_pages.homePages.missionVision');
     }
-    function contact(){
-        return view('contact');
+    function about(){
+        return view('nav_pages.homePages.about');
     }
 }

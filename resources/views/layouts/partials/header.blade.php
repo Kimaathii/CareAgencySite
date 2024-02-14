@@ -94,16 +94,16 @@
                     </div>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="/" class="nav-link active">
                                 Home
                                 <i class="ri-arrow-down-s-line"></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="index.html" class="nav-link">About Us</a>
+                                    <a href="{{ route('pages.about') }}" class="nav-link">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="index-2.html" class="nav-link">Our Mission and Vision</a>
+                                    <a href="{{ route('pages.missionVision') }}" class="nav-link">Our Mission and Vision</a>
                                 </li>
                                 {{-- <li class="nav-item">
                                     <a href="index-3.html" class="nav-link">Home Three</a>
@@ -123,30 +123,30 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="about.html" class="nav-link">
+                            <a href="#" class="nav-link">
                                 Services
                                 <i class="ri-arrow-down-s-line"></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="about.html" class="nav-link">Domiciliary care</a>
+                                    <a href="{{ route('service.domicilary') }}" class="nav-link">Domiciliary care</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="portfolio.html" class="nav-link">Join Us</a>
+                                    <a href="{{ route('service.join') }}" class="nav-link">Join Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="portfolio-details.html" class="nav-link">Staffing</a>
+                                    <a href="{{ route('service.staffing') }}" class="nav-link">Staffing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="portfolio-details.html" class="nav-link">Training</a>
+                                    <a href="{{ route('service.training') }}" class="nav-link">Training</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="portfolio-details.html" class="nav-link">Cleaning Service</a>
+                                    <a href="{{ route('service.cleaning') }}" class="nav-link">Cleaning Service</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{ route('pages.contact') }}" class="nav-link">
                                 Contact
                                 {{-- <i class="ri-arrow-down-s-line"></i> --}}
                             </a>
@@ -169,7 +169,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="team.html" class="nav-link">FAQs</a>
+                                    <a href="{{ route('pages.faqs') }}" class="nav-link">FAQs</a>
                                 </li>
                                 {{-- <li class="nav-item">
                                     <a href="appointment.html" class="nav-link">Book Appointment</a>
