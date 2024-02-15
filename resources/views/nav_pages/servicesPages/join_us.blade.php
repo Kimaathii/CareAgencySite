@@ -1,5 +1,18 @@
 @extends('welcome')
 @section('content')
+ <!-- Breadcrumb Start -->
+ <div class="breadcrumb-wrap bg-f br-2">
+    <div class="container">
+        <div class="breadcrumb-title">
+            <h2>Join Us</h2>
+            <ul class="breadcrumb-menu list-style">
+                <li><a href="/">Home</a></li>
+                <li style="color: white">Join Us</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb End -->
 
 <section class="wh-wrap style3 ptb-100 bg-chathamas">
     <div class="container">
@@ -7,11 +20,18 @@
             <div class="col-lg-6 order-lg-1 order-md-2 order-2 aos-init" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
                 <div class="wh-content">
                     <div class="content-title style2">
-                        <span>Why Choose us</span>
-                        <h2>Protect Your Health With Our Health Package</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cupiditate sit debitis, aut, perferendis praesentium alias, asperiores similique veniam vitae veritatis.</p>
+                        
+                        <h2>Current Vacancies</h2>
+                        <ul class="content-feature-list style2 list-style" id="vancyId">
+                            <li><i class="ri-checkbox-circle-line"></i>Support Workers.</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Home-care Assistants.</li>
+                            <li><i class="ri-checkbox-circle-line"></i>Healthcare Assistant</li>
+                            <li><i class="ri-checkbox-circle-line"></i>RMNs</li>
+                            <li><i class="ri-checkbox-circle-line"></i> RGNs</li>
+                        </ul>
+                        <p>Are you an experienced RMN, RGN, healthcare assistant or support worker,  that is compassionate, kind, want to work when you are free, contact us for a pre-assessment. or download the application form below, fill it and send to us. At cyncare health you are not just a staff but part of our family and you will get all the support you  need.</p>
                     </div>
-                    <div class="feature-item-wrap">
+                    {{-- <div class="feature-item-wrap">
                         <div class="feature-item">
                             <div class="feature-icon">
                                 <i class="ri-check-line"></i>
@@ -30,23 +50,23 @@
                                 <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <a href="about.html" class="btn style1">Get More info</a>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-2 order-md-1 order-1 aos-init" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
                 <div class="wh-img-wrap">
                     <div class="wh-bg-3 bg-f"></div>
-                    <div class="about-doctor-box">
+                    {{-- <div class="about-doctor-box">
                         <div class="doctor-img">
-                            <img src="assets/img/about/doctor-1.jpg" alt="Image">
+                            <img src="{{ asset('assets/img/about/Friendship.png') }}" alt="Image">
                         </div>
                         <div class="doctor-info">
                             <h5>Dr. Kate Winslet</h5>
                             <span>Radiology</span>
                         </div>
                         <button type="button" class="btn">Select</button>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

@@ -172,6 +172,12 @@ select {
 .missionimg img{
   width: 100%;
 }
+#vancyId li {
+  color: white;
+}
+#vancyId i{
+  color: white;
+}
 .pb-100 .headerLogotxt{
   padding: 50px 0;
   text-align: center;
@@ -972,11 +978,11 @@ select {
 }
 
 .btn.style1:after, .btn.style1:before {
-  background: #14467B;
+  background: #6DCCA3;
 }
 
 .btn.style2 {
-  background-color: #14467B;
+  background-color: #6DCCA3;
   color: #fff;
   border-radius: 5px;
 }
@@ -998,7 +1004,7 @@ select {
 }
 
 .btn.style3:after, .btn.style3:before {
-  background: #14467B;
+  background: #6DCCA3;
 }
 
 .btn.style3:hover {
@@ -1006,7 +1012,7 @@ select {
 }
 
 .btn.style5 {
-  background-color: #14467B;
+  background-color: #6DCCA3;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -1027,7 +1033,7 @@ select {
 }
 
 .btn.style6:after, .btn.style6:before, .btn.style8:after, .btn.style8:before {
-  background: #14467B;
+  background: #6DCCA3;
 }
 
 .btn.style6:hover, .btn.style8:hover {
@@ -1046,7 +1052,7 @@ select {
 }
 
 .btn.style7:after, .btn.style7:before {
-  background: #14467B;
+  background: #6DCCA3;
 }
 
 .btn.style7:hover {
@@ -1070,7 +1076,7 @@ select {
   content: "";
   width: 0;
   height: 1px;
-  background: #14467B;
+  background: #6DCCA3;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
@@ -1111,7 +1117,7 @@ select {
 }
 
 .link:hover {
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .link:hover:after {
@@ -1197,7 +1203,7 @@ select {
 }
 
 .owl-carousel .owl-dots button.owl-dot.active span {
-  background: #14467B;
+  background: #6DCCA3;
 }
 
 /*--------------------------------------
@@ -1733,7 +1739,7 @@ select {
 
 .social-profile li a:hover {
   border-color: transparent;
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .social-profile.style1 li a, .social-profile.style2 li a {
@@ -2049,7 +2055,7 @@ select {
 }
 
 .header-wrap.style1 .header-top {
-  background-color: #14467B;
+  background-color: #6DCCA3;
 }
 
 .header-wrap.style1 .header-top .header-top-left .contact-info li span {
@@ -2057,7 +2063,7 @@ select {
 }
 
 .header-wrap.style1 .header-top .header-top-left .contact-info li span i {
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .header-wrap.style1 .header-top .header-top-left .contact-info li:hover span {
@@ -2085,7 +2091,7 @@ select {
 }
 
 .header-wrap.style1 .header-top .header-top-right .social-profile li a i {
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .header-wrap.style1 .header-top .header-top-right .social-profile li a:hover {
@@ -2123,7 +2129,7 @@ select {
 }
 
 .header-wrap.style2 .header-top .header-top-right .social-profile li a i {
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .header-wrap.style2 .header-top .header-top-right .social-profile li a:hover {
@@ -2172,7 +2178,7 @@ select {
 }
 
 .header-wrap.style3 .header-top .header-top-right .social-profile li a i {
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .header-wrap.style3 .header-top .header-top-right .social-profile li a:hover {
@@ -3608,7 +3614,7 @@ select {
 }
 
 .terms-wrap .single-terms p a:hover {
-  color: #14467B;
+  color: #6DCCA3;
   text-decoration: underline;
 }
 
@@ -3638,7 +3644,7 @@ select {
 }
 
 .tag-list ul li a:hover {
-  background-color: #14467B;
+  background-color: #6DCCA3;
   color: #fff;
   border-color: transparent;
 }
@@ -3758,7 +3764,7 @@ select {
   left: 0;
   font-size: 13px;
   line-height: 0.8;
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .pp-post-item:last-child {
@@ -3766,7 +3772,7 @@ select {
 }
 
 .pp-post-item:hover .pp-post-info h6 a {
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 /*-------------------------------
@@ -3918,7 +3924,7 @@ select {
 }
 
 .hero-wrap.style2 {
-  background-color: #14467B;
+  background-color: #6DCCA3;
   padding: 100px 0 180px;
   z-index: 1;
 }
@@ -4909,7 +4915,7 @@ select {
   width: 100%;
   height: calc(50% + 28px);
   z-index: -1;
-  background-color: #14467B;
+  background-color: #6DCCA3;
 }
 
 .service-wrap.style3 {
@@ -4925,7 +4931,7 @@ select {
   width: 100%;
   height: 20%;
   z-index: -1;
-  background-color: #14467B;
+  background-color: #6DCCA3;
 }
 
 .service-card {
@@ -4988,7 +4994,7 @@ select {
 .service-card.style1 .service-img .service-icon {
   bottom: -25px;
   right: 25px;
-  background-color: #14467B;
+  background-color: #6DCCA3;
   border-radius: 5px;
 }
 
@@ -5308,7 +5314,7 @@ select {
    Why Choose US  Section  CSS
 -------------------------------*/
 .wh-bg-3 {
-  background-image: url(../img/about/missionimg2.png);
+  background-image: url(../img/about/Friendship.png);
 }
 
 .wh-wrap.style1 .wh-img-wrap {
@@ -5814,7 +5820,7 @@ select {
 }
 
 .testimonial-slider-one.owl-carousel .owl-nav button.owl-prev:hover:after, .testimonial-slider-one.owl-carousel .owl-nav button.owl-next:hover:after {
-  background-color: #14467B;
+  background-color: #6DCCA3;
 }
 
 .testimonial-slider-two {
@@ -6038,7 +6044,7 @@ select {
 .pricing-card .pricing-header .pricing-header-right i {
   font-size: 60px;
   opacity: 0.25;
-  color: #14467B;
+  color: #6DCCA3;
   line-height: 0.5;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -6300,7 +6306,7 @@ select {
   top: -22px;
   right: 25px;
   font-size: 15px;
-  background-color: #14467B;
+  background-color: #6DCCA3;
   padding: 8px 15px;
   border-radius: 5px;
   color: #fff;
@@ -6325,7 +6331,7 @@ select {
   position: absolute;
   top: 25px;
   left: 25px;
-  background-color: #14467B;
+  background-color: #6DCCA3;
   padding: 8px 15px;
   color: #fff;
   text-align: center;
@@ -6370,7 +6376,7 @@ select {
   top: -25px;
   right: 25px;
   font-size: 15px;
-  background-color: #14467B;
+  background-color: #6DCCA3;
   padding: 8px 15px;
   color: #fff;
   text-align: center;
@@ -6635,7 +6641,7 @@ select {
 }
 
 .contact-item:hover .contact-icon {
-  background-color: #14467B;
+  background-color: #6DCCA3;
 }
 
 .contact-item:hover .contact-icon i {
@@ -6703,7 +6709,7 @@ select {
 }
 
 .contact-content .social-profile li a i {
-  color: #14467B;
+  color: #6DCCA3;
   font-size: 20px;
 }
 
@@ -7151,7 +7157,7 @@ article {
 }
 
 .comment-item-wrap .reply-btn:hover {
-  color: #14467B;
+  color: #6DCCA3;
 }
 
 .comment-box-title h4 {
