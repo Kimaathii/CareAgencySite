@@ -84,7 +84,7 @@
                 <div class="headerLogotxt">
                     <a href="#">
                         CynCare 
-                        <span style="color:#2490EB;"">Health Ltd</span>
+                        <span style="color:#9155A7;"">Health Ltd</span>
                     </a>
                     <span style="font-style:italic;">.....exceptional healthcare always.....</span>
                 </div>

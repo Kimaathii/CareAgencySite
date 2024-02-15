@@ -1,15 +1,103 @@
  <!-- Footer Section Start -->
  <footer class="footer-wrap">
-    <div class="container">
+    <div class="container" id="container">
         <div class="row pt-100 pb-75">
-            <div class="col-xl-3 col-lg-5 col-md-5 col-sm-12">
-                <div class="footer-widget">
-                    <a href="index.html" class="footer-logo">
-                        <img class="logo-light" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo">
-                    </a>
-                    <p class="comp-desc">
-                        Lorem ipsum dolor sit amet consc tetur adicing elit. Dolor emque dicta molest enim beatae ame consequ atur tempo pretium auctor nam.
+            
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="footer-widget footxt" style="color: white">
+                    <h3 class="footer-widget-title">Branch Address
+                    </h3>
+                    <h6><i class="ri-arrow-right-s-line"></i>Head Office (Brighton and Hove)</h6>
+                    <p>11 Hollingbury Place. Brighton BN1 7GE</p>
+                    <p>Phone No.<br> 01273973957,<br> 01273097440</p>
+
+                    <h6><i class="ri-arrow-right-s-line"></i> Cumbria Office</h6>
+                    <p>Unit 12, Fisher Street Galleries
+                        18 Fisher Street.
+                        Carlisle
+                        CA3 8RH
                     </p>
+                        <p>Phone No. <br>01228317229</p>
+
+
+                    <h6><i class="ri-arrow-right-s-line"></i>Crewe Office</h6>
+                    <p>Room 4, Valentine House
+
+                        Apollo Buckingham Health Science Campus.
+                        
+                        Crewe Green Road. 
+                        
+                        Crewe.
+                        
+                        CW1 5DU</p>
+                    <p>
+                        Phone No.<br>
+                        
+                        01270747227</p>
+
+
+            
+                    
+                  
+               
+
+
+
+
+                  
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="footer-widget" >
+               
+                    <h6 style="margin-top: 74px"><i class="ri-arrow-right-s-line"></i>London Office</h6>
+                    <p>20 Sydenham Road.
+
+                        Sydenham
+                        
+                        London.
+                        
+                        SE26 5QW</p>
+                        <p>Phone No.<br>
+
+                            02034900097</p>
+
+                    <h6><i class="ri-arrow-right-s-line"></i>Bristol Office</h6>
+                    <p>Pennywell Road
+
+                        Old Market
+                        
+                        Bristol
+                        
+                        BS5 0TG </p>
+                    
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="footer-widget">
+                    <h3 class="footer-widget-title" style="margin-left: 25px">Opening Hours</h3>
+                    <ul class="contact-info list-style">
+                        <li>
+                            <i class="flaticon-map"></i>
+                            <h6>Monday -    Friday: 9am -5pm</h6>
+                        </li>
+                        <li>
+                            <i class="flaticon-email-1"></i>
+                            <h6>Saturday-    Closed</h6>
+                        </li>
+                        <li>
+                            <i class="flaticon-phone-call-1"></i>
+                            <h6>Sunday  -    Closed</h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-widget" style="margin-left: 25px">
+                    <a href="index.html" class="footer-logo" >
+                        <img class="logo-light" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo" style="border-radius:50%; padding:10px">
+                    </a>
+                    {{-- <p class="comp-desc">
+                        Lorem ipsum dolor sit amet consc tetur adicing elit. Dolor emque dicta molest enim beatae ame consequ atur tempo pretium auctor nam.
+                    </p> --}}
                     <ul class="social-profile style1 list-style">
                         <li>
                             <a href="https://facebook.com/">
@@ -34,141 +122,49 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                <div class="footer-widget">
-                    <h3 class="footer-widget-title">Company</h3>
-                    <ul class="footer-menu list-style">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <div class="footer-widget" style="display: flex; align-items:center; flex-direction:column">
+                    <h3 class="footer-widget-title">Quick Link</h3>
+                      <ul class="footer-menu list-style">
                         <li>
-                            <a href="index.html">
+                            <a href="/">
                                 <i class="ri-arrow-right-s-line"></i>
                                Home
                             </a>
                         </li>
                         <li>
-                            <a href="about.html">
+                            <a href="{{ route('service.domicilary') }}">
                                 <i class="ri-arrow-right-s-line"></i>
-                                About Us
+                                Services
                             </a>
                         </li>
                         <li>
-                            <a href="service-one.html">
+                            <a href="{{ route('pages.contact') }}">
                                 <i class="ri-arrow-right-s-line"></i>
-                              Our Services
+                              Contact
                             </a>
                         </li>
                         <li>
-                            <a href="team.html">
+                            <a href="{{ route('pages.faqs') }}">
                                 <i class="ri-arrow-right-s-line"></i>
-                                Our Team
+                                News
                             </a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="contact.html">
                                 <i class="ri-arrow-right-s-line"></i>
                                Contact Us
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
-                <div class="footer-widget">
-                    <h3 class="footer-widget-title">Important</h3>
-                    <ul class="footer-menu list-style">
-                        <li>
-                            <a href="portfolio.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                               Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="appointment.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                              Appointment
-                            </a>
-                        </li>
-                        <li>
-                            <a href="faq.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                                FAQ 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="privacy-policy.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                                Privacy Policy
-                            </a>
-                        </li>
-                        <li>
-                            <a href="terms-of-service.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                                Terms &amp; Conditions
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-2 col-lg-5 col-md-6 col-sm-6 pe-xl-4">
-                <div class="footer-widget">
-                    <h3 class="footer-widget-title">Quick Link</h3>
-                    <ul class="footer-menu list-style">
-                        <li>
-                            <a href="about.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                               Why Choose Us
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pricing-plan.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                                Pricing Plan
-                            </a>
-                        </li>
-                        <li>
-                            <a href="blog-left-sidebar.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                               News &amp; Articles
-                            </a>
-                        </li>
-                        <li>
-                            <a href="login.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                               Login
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                                Subscribe
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-7 col-md-6 col-sm-6">
-                <div class="footer-widget">
-                    <h3 class="footer-widget-title">Official Info</h3>
-                    <ul class="contact-info list-style">
-                        <li>
-                            <i class="flaticon-map"></i>
-                            <h6>Location</h6>
-                            <p>2767 Sunrise Street, NY 1002, USA</p>
-                        </li>
-                        <li>
-                            <i class="flaticon-email-1"></i>
-                            <h6>Email</h6>
-                            <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#f49c9198989bb48091989dda979b99"><span class="__cf_email__" data-cfemail="bfd7dad3d3d0ffcbdad3d691dcd0d2">[email&#160;protected]</span></a>
-                        </li>
-                        <li>
-                            <i class="flaticon-phone-call-1"></i>
-                            <h6>Phone</h6>
-                            <a href="tel:13454567877">+1-3454-5678-77</a>
-                        </li>
-                    </ul>
-                </div>
+          
+            <div class="">
+               
             </div>
         </div>
     </div>
-    <p class="copyright-text"><i class="ri-copyright-line"></i> <span>Teli</span>. All Rights Reserved By <a href="https://hibotheme.com/">HiboTheme</a></p>
+    {{-- <p class="copyright-text"><i class="ri-copyright-line"></i> <span>Teli</span>. All Rights Reserved By <a href="https://hibotheme.com/">HiboTheme</a></p> --}}
 </footer>
 <!-- Footer Section End -->
