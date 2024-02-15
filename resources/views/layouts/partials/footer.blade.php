@@ -3,7 +3,7 @@
     <div class="container" id="container">
         <div class="row pt-100 pb-75">
             
-            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                 <div class="footer-widget footxt" style="color: white">
                     <h3 class="footer-widget-title">Branch Address
                     </h3>
@@ -47,7 +47,7 @@
                   
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                 <div class="footer-widget" >
                
                     <h6 style="margin-top: 74px"><i class="ri-arrow-right-s-line"></i>London Office</h6>
@@ -73,7 +73,7 @@
                     
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                 <div class="footer-widget">
                     <h3 class="footer-widget-title" style="margin-left: 25px">Opening Hours</h3>
                     <ul class="contact-info list-style">
@@ -122,7 +122,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                 <div class="footer-widget" style="display: flex; align-items:center; flex-direction:column">
                     <h3 class="footer-widget-title">Quick Link</h3>
                       <ul class="footer-menu list-style">
