@@ -154,8 +154,23 @@ select {
   line-height: 15px;
   font-weight: 600;
 }
-#container{
+.form-group textarea{
+  width: 100%;
+    padding: 20px;
+    background-color: #F5F6FA;
+    border-radius: 5px;
+    padding: 13px 20px;
+    border: none;
+    color: #000;
+}
+.missionimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
+}
+.missionimg img{
+  width: 100%;
 }
 .pb-100 .headerLogotxt{
   padding: 50px 0;
@@ -454,7 +469,7 @@ select {
 }
 
 #message {
-  padding: 0;
+  padding: 20px;
   margin: 0;
 }
 
@@ -1272,7 +1287,7 @@ select {
 }
 
 .bg-chathamas {
-  background-color: #14467B;
+  background-color: #9155A7;
 }
 
 .body_overlay {
@@ -2997,23 +3012,23 @@ select {
        Breadcrumb CSS 
 -----------------------------------*/
 .br-1 {
-  background-image: url(../img/breadcrumb/br-1.jpg);
+  background-image: url(../img/about/breadcrrumb.png);
 }
 
 .br-2 {
-  background-image: url(../img/breadcrumb/br-2.jpg);
+  background-image: url(../img/about/breadcrrumb.png);
 }
 
 .br-3 {
-  background-image: url(../img/breadcrumb/br-3.jpg);
+  background-image: url(../img/about/breadcrrumb.png);
 }
 
 .br-4 {
-  background-image: url(../img/breadcrumb/br-4.jpg);
+  background-image: url(../img/about/breadcrrumb.png);
 }
 
 .br-5 {
-  background-image: url(../img/breadcrumb/br-5.jpg);
+  background-image: url(../img/about/breadcrrumb.png);
 }
 
 .breadcrumb-wrap {
@@ -3031,7 +3046,9 @@ select {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 70, 123, 0.9);
+  background-color: rgba(145, 85, 167, 0.6);
+
+
 }
 
 .breadcrumb-title {
@@ -4510,7 +4527,7 @@ select {
 }
 
 .about-wrap.style1 .about-content .content-feature-list li i {
-  font-size: 26px;
+  font-size: 20px;
   color: #9155AF;
   top: 2px;
 }
@@ -5352,10 +5369,13 @@ select {
 
 .wh-wrap.style2 .wh-img-wrap {
   position: relative;
-  background-image: url(../img/why-choose-us/wh-bg-2.jpg);
+  background-image: url(../img/about/SeniorCaregiver.png);
   height: 620px;
   width: calc(100% - 120px);
   margin-left: auto;
+  background-repeat: no-repeat ;
+  background-size: 100%;
+  border-radius: 10px;
 }
 
 .wh-wrap.style2 .wh-img-wrap .appointment-form {

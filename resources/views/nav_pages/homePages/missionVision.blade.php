@@ -67,19 +67,19 @@
             
         </div>
     </div>
-    <div class="doctor-img">
-        <img src="{{ asset('assets\img\about\missionimg.png') }}" alt="Image" style="width: 100%">
+    <div class="doctor-img missionimg">
+        <img src="{{ asset('assets\img\about\missionimg.png') }}" alt="Image" >
     </div>
 </section>
 
-<section class="wh-wrap style3 ptb-100 bg-chathamas">
+<section class="wh-wrap style3 ptb-100 ">
     <div class="container">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-1 order-md-2 order-2 aos-init" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
                 <div class="wh-content">
-                    <div class="content-title style2">
+                    <div class="content-title ">
                         {{-- <span>Why Choose us</span> --}}
-                        <h2>Mission</h2>
+                        <h2 style="color: #9155A7">Mission</h2>
                         <p>We are a company that aim to always deliver exceptional care service to our service users. Our mission is to provide healthcare agency services to both individual clients and healthcare providers. We are not a franchise, we care for your loved ones like they were our own. We have a team of dedicated and exceptionally trained staff working together with other stakeholders to provide robust healthcare solution tailored to meet the specific needs of our services users and to bring about improved lives and flourishing communities.​</p>
                     </div>
                     {{-- <div class="feature-item-wrap">

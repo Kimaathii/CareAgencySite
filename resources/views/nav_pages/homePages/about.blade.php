@@ -11,8 +11,8 @@
             <div class="breadcrumb-title">
                 <h2>About Us</h2>
                 <ul class="breadcrumb-menu list-style">
-                    <li><a href="index.html">Home</a></li>
-                    <li>About Us</li>
+                    <li><a href="/">Home</a></li>
+                    <li style="color: white">About Us</li>
                 </ul>
             </div>
         </div>
@@ -44,16 +44,16 @@
                         <div class=" style1">
                             {{-- <span>About Our Program</span> --}}
                             <h2>About Us</h2>
-                            <span>Cyncare Health is a family run business, founded based on<span style="color:#2490EB"> compassion and care</span> for lives and communities. With many years of wide-ranging experience committed to enhancing the healthcare sector through <span style="color:#2490EB">professionalism and exceptional relationships</span> with stakeholders (service users, clients, nurses, doctors, other health care professionals, regulatory bodies etc.), we have a vision to deliver exceptional care service, first time and at all times! &nbsp;</span>
+                            <span>Cyncare Health is a family run business, founded based on<span style="color:#A676B9"> compassion and care</span> for lives and communities. With many years of wide-ranging experience committed to enhancing the healthcare sector through <span style="color:#A676B9">professionalism and exceptional relationships</span> with stakeholders (service users, clients, nurses, doctors, other health care professionals, regulatory bodies etc.), we have a vision to deliver exceptional care service, first time and at all times! &nbsp;</span>
 
                             <div style="margin-top: 50px ">We have a team of dedicated and exceptionally-trained staff working together with other stakeholders to provide robust healthcare solutions tailored to meet the specific needs of our service users / client and to bring about 
-                                <span style="color:#2490EB">improved lives </span>and 
-                                <span style="color:#2490EB">flourishing communities. &nbsp;</span></div>
+                                <span style="color:#A676B9">improved lives </span>and 
+                                <span style="color:#A676B9">flourishing communities. &nbsp;</span></div>
                         </div>
                         <span>Our service delivery and work operations are underpinned by these seven core values: &nbsp;</span>
                         <div class="row align-items-center">
-                            <div class="col-md-7">
-                                <ul class="content-feature-list list-style">
+                            <div class="">
+                                <ul class="content-feature-list list-style" style="margin-top: 10px ">
                                     <li><i class="ri-checkbox-circle-line"></i>C – Compassionate Care  
                                     </li>
                                     <li><i class="ri-checkbox-circle-line"></i>Y – You at heart and Your Choice  
@@ -70,19 +70,19 @@
                                     </li>
                                 </ul>
                                 <span>Working in line with our vision and based on the afore-mentioned values, we set out on our mission of providing healthcare service based on these three objectives: &nbsp;</span>
-                                <ul>
+                                <ul >
                                     <li>
-                                        <span>- &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:#2490EB">Exceptional service</span> outcome and unique delivery experience for service users, clients and staff &nbsp;</span> 
+                                        <span>- &nbsp; &nbsp;<span style="color:#A676B9">Exceptional service</span> outcome and unique delivery experience for service users, clients and staff &nbsp;</span> 
                                     </li>
                                     <li>
-                                        <span>- &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:#2490EB">Fully qualified, trained</span> and continually developing professional workforce with wide-ranging industry experience &nbsp;</span>
+                                        <span>- &nbsp; &nbsp;<span style="color:#A676B9">Fully qualified, trained</span> and continually developing professional workforce with wide-ranging industry experience &nbsp;</span>
                                     </li>
                                     <li>
-                                        <span>- &nbsp; &nbsp; &nbsp; &nbsp;Adopting safe and regulatory-compliant organisational processes and practices &nbsp;</span> 
+                                        <span>- &nbsp; &nbsp;Adopting safe and regulatory-compliant organisational processes and practices &nbsp;</span> 
                                     </li>
                                 </ul>
-                                <span>A range of home care services can be provided, with assessments carried out before creating care plans to ensure all needs will be met in the preferred ways of the service users. We also provide a Care Agency Service, providing highly qualified, trained staff members, from Carers to Nurses, and to supporting other services. &nbsp;</span>
-                                <span>You can rely on Cyncare Health Ltd. to ensure you or your loved ones receive a high standard, person-centred and unique care with a personal and flexible approach to encourage independence and choice. &nbsp;</span>
+                                <p>A range of home care services can be provided, with assessments carried out before creating care plans to ensure all needs will be met in the preferred ways of the service users. We also provide a Care Agency Service, providing highly qualified, trained staff members, from Carers to Nurses, and to supporting other services. &nbsp;</span>
+                                You can rely on Cyncare Health Ltd. to ensure you or your loved ones receive a high standard, person-centred and unique care with a personal and flexible approach to encourage independence and choice. &nbsp;</p>
                                 <span>Please do not hesitate to contact us today! &nbsp;</span>
                             </div>
                             {{-- <div class="col-md-5">
@@ -94,12 +94,12 @@
                                 </div>
                             </div> --}}
                         </div>
-                        <div class="ceo-msg">
+                        {{-- <div class="ceo-msg">
                             <div class="ceo-img">
                                 <img src="assets/img/about/doctor-2.jpg" alt="Image">
                             </div>
                             <p>"Think Hard And Focus On The Patient's Well-Being"</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                             <span class="odometer" data-count="99"></span>
                             <span class="target">%</span>
                         </h2>
-                        <p>Patients Satisfied</p>
+                        <p> Satisfactory service & more</p>
                     </div>
                 </div>
                 <div class="counter-card style1">
@@ -144,7 +144,7 @@
                             <span class="odometer" data-count="700"></span>
                             <span class="target">+</span>
                         </h2>
-                        <p>Medical Beds</p>
+                        <p>Care givers</p>
                     </div>
                 </div>
                 <div class="counter-card style1">
@@ -156,7 +156,7 @@
                             <span class="odometer" data-count="70"></span>
                             <span class="target">+</span>
                         </h2>
-                        <p>Laboratory Experts</p>
+                        <p>Trainees</p>
                     </div>
                 </div>
             </div>
@@ -199,15 +199,15 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-10">
+            {{-- <div class="text-center mt-10">
                 <p class="mb-0">We have all kinds of hospital treatment. <a href="service-one.html" class="link style1">View More</a></p>
-            </div>
+            </div> --}}
         </div>
     </div>
     <!-- Counter Section End -->
 
     <!-- Testimonial Section Start -->
-    <section class="testimonial-wrap style2 ptb-100">
+    {{-- <section class="testimonial-wrap style2 ptb-100">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1">
@@ -345,7 +345,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Testimonial Section End -->
 
     <!-- Why Choose Us Section Start -->
@@ -354,37 +354,33 @@
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6">
                     <div class="wh-img-wrap">
-                        <form action="#" class="appointment-form">
-                            <h2>Book An Appointment</h2>
-                            <div class="form-group">
-                                <input type="text" placeholder="Full name">   
-                            </div>
-                            <div class="form-group">
-                                <input type="number" placeholder="Phone Number">   
-                            </div>
-                            <div class="form-group">
-                                <select name="select_doctor" id="select_doctor">
-                                    <option value="0" data-display="Select Doctor">Select Doctor</option>
-                                    <option value="1" >Dr. Novlel Josef</option>
-                                    <option value="2" >Dr. Fredrick Henry</option>
-                                    <option value="3" >Dr. Steave Mark</option>
-                                </select>   
-                            </div>
-                            <div class="form-group">
-                                <input type="date">   
-                            </div>
-                            <button type="submit" class="btn style2">Book Now</button>
-                        </form>
+                        
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="wh-content">
-                        <div class="content-title style1">
-                            <span>Why Choose us</span>
-                            <h2>Protect Your Health With Our Health Package</h2>
-                            <p>There are many variations of passages of Lorem Ipsum amets avoilble but majority have suffered alteration in some form, by injected humour or randomise words which don't sure amet consec tetur adicing.</p>
-                        </div>
-                        <div class="feature-item-wrap">
+                        <form action="#" class="appointment-form">
+                            <h2>Let’s Work Together</h2>
+                            <p>Get in touch so we can start working together.</p>
+                            <div class="form-group">
+                                <input type="text" placeholder="First Name">   
+                            </div>
+                            <div class="form-group">
+                                <input type="number" placeholder="Last Name">   
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email">   
+                            </div>
+                            <div class="form-group">
+                                
+                                <textarea placeholder="Message" name="message" id="message" cols="40" rows="10"></textarea>  
+                            </div>
+                            <div class="form-group">
+                                <input type="date">   
+                            </div>
+                            <button type="submit" class="btn style2">Submit</button>
+                        </form>
+                        {{-- <div class="feature-item-wrap">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <i class="flaticon-pulse"></i>
@@ -404,7 +400,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="about.html" class="btn style7">Get More info</a>
+                        <a href="about.html" class="btn style7">Get More info</a> --}}
                     </div>
                 </div>
             </div>
@@ -412,96 +408,12 @@
     </section>
     <!-- Why Choose Us Section End -->
 
-    <!-- Partner Area Start -->
-    <div class="container  pb-100">
-        <div class="partner-slider-one owl-carousel">
-            <div class="partner-item">
-                <img src="assets/img/partner/partner-7.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="assets/img/partner/partner-8.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="assets/img/partner/partner-9.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="assets/img/partner/partner-10.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="assets/img/partner/partner-11.png" alt="Image">
-            </div>
-            <div class="partner-item">
-                <img src="assets/img/partner/partner-12.png" alt="Image">
-            </div>
-        </div>
-    </div>
-    <!-- Partner Area End -->
 
 </div>
 <!-- Content wrapper end -->
 
 
-<section class="wh-wrap style2 pt-100">
-    <div class="container">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 aos-init" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
-                <div class="wh-img-wrap">
-                    <form action="#" class="appointment-form">
-                        <h2>Book An Appointment</h2>
-                        <div class="form-group">
-                            <input type="text" placeholder="Full name">   
-                        </div>
-                        <div class="form-group">
-                            <input type="number" placeholder="Phone Number">   
-                        </div>
-                        <div class="form-group">
-                            <select name="select_doctor" id="select_doctor">
-                                <option value="0" data-display="Select Doctor">Select Doctor</option>
-                                <option value="1">Dr. Novlel Josef</option>
-                                <option value="2">Dr. Fredrick Henry</option>
-                                <option value="3">Dr. Steave Mark</option>
-                            </select>   
-                        </div>
-                        <div class="form-group">
-                            <input type="date">   
-                        </div>
-                        <button type="submit" class="btn style2">Book Now</button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-6 aos-init" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-                <div class="wh-content">
-                    <div class="content-title style1">
-                        <span>Why Choose us</span>
-                        <h2>Protect Your Health With Our Health Package</h2>
-                        <p>There are many variations of passages of Lorem Ipsum amets avoilble but majority have suffered alteration in some form, by injected humour or randomise words which don't sure amet consec tetur adicing.</p>
-                    </div>
-                    <div class="feature-item-wrap">
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-pulse"></i>
-                            </div>
-                            <div class="feature-text">
-                                <h3>Good People Work</h3>
-                                <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque .</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-pills"></i>
-                            </div>
-                            <div class="feature-text">
-                                <h3>Live Healthy Life</h3>
-                                <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="about.html" class="btn style7">Get More info</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 
 
