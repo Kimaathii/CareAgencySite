@@ -1,7 +1,7 @@
 @extends('welcome')
 @section('content')
 
-
+<div class="content-wrapper">
 <video src="{{ asset('assets/img/about/file.mp4') }}"></video>
 <section>
 
@@ -178,7 +178,7 @@
     </div>
 </section>
 
-
+</div>
 
 
 @endsection

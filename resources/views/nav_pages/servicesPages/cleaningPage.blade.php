@@ -1,59 +1,79 @@
 @extends('welcome')
 @section('content')
-
-<section class="wh-wrap style3 ptb-100 bg-chathamas">
+<div class="content-wrapper">
+<!-- Breadcrumb Start -->
+<div class="breadcrumb-wrap bg-f br-5">
     <div class="container">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-lg-1 order-md-2 order-2 aos-init" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
-                <div class="wh-content">
-                    <div class="content-title style2">
-                        <span>Why Choose us</span>
-                        <h2>Protect Your Health With Our Health Package</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cupiditate sit debitis, aut, perferendis praesentium alias, asperiores similique veniam vitae veritatis.</p>
-                    </div>
-                    <div class="feature-item-wrap">
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="ri-check-line"></i>
-                            </div>
-                            <div class="feature-text">
-                                <h3>Mental Health Solution</h3>
-                                <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque .</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon">
-                                <i class="ri-check-line"></i>
-                            </div>
-                            <div class="feature-text">
-                                <h3>Rapid Improvement Patient</h3>
-                                <p>Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="about.html" class="btn style1">Get More info</a>
-                </div>
+        <div class="breadcrumb-title">
+            <h2>Our Cleaning Services</h2>
+            <ul class="breadcrumb-menu list-style">
+                <li style="color: white">We will take care of your property like it was ours. we pay attention to every thing with quality assurance</li>
+                {{-- <li>Cleaning Services</li> --}}
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb End -->
+
+ <!-- Portfolio Section Start -->
+ <section class="portfolio-wrap ptb-100">
+    <div class="container">
+        <div class="section-title style1 text-center mb-40">
+            {{-- <span>Our Portfolio</span> --}}
+            <h2>What We Do</h2>
+        </div>
+       
+    </div>
+    <div class="portfolio-slider-two owl-carousel">
+        <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+            <img src="{{ asset('assets/img/cleaning/cleaning1.png') }}" alt="Image">
+            <div class="portfolio-info">
+                <a href="#" class="portfolio-cat">Office</a>
+                <h3><a href="portfolio-details.html"> Cleaning</a></h3>
             </div>
-            <div class="col-lg-6 order-lg-2 order-md-1 order-1 aos-init" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-                <div class="wh-img-wrap">
-                    <div class="wh-bg-3 bg-f"></div>
-                    <div class="about-doctor-box">
-                        <div class="doctor-img">
-                            <img src="assets/img/about/doctor-1.jpg" alt="Image">
-                        </div>
-                        <div class="doctor-info">
-                            <h5>Dr. Kate Winslet</h5>
-                            <span>Radiology</span>
-                        </div>
-                        <button type="button" class="btn">Select</button>
-                    </div>
-                </div>
+        </div>
+        <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
+            <img src="{{ asset('assets/img/cleaning/cleaning2.png') }}" alt="Image">
+            <div class="portfolio-info">
+                <a href="#" class="portfolio-cat">Domestic</a>
+                <h3><a href="portfolio-details.html">Cleaning</a></h3>
+            </div>
+        </div>
+        <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+            <img src="{{ asset('assets/img/cleaning/cleaning3.png') }}" alt="Image">
+            <div class="portfolio-info">
+                <a href="#" class="portfolio-cat">End of Tenancy </a>
+                <h3><a href="portfolio-details.html">Cleaning</a></h3>
+            </div>
+        </div>
+        <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
+            <img src="{{ asset('assets/img/cleaning/cleaning4.png') }}" alt="Image">
+            <div class="portfolio-info">
+                <a href="#" class="portfolio-cat">After Building</a>
+                <h3><a href="portfolio-details.html">Cleaning</a></h3>
+            </div>
+        </div>
+        <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
+            <img src="{{ asset('assets/img/cleaning/cleaning5.png') }}" alt="Image">
+            <div class="portfolio-info">
+                <a href="#" class="portfolio-cat">Carpet</a>
+                <h3><a href="portfolio-details.html">Cleaning</a></h3>
+            </div>
+        </div>
+        <div class="portfolio-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="700">
+            <img src="{{ asset('assets/img/cleaning/cleaning6.png') }}" alt="Image">
+            <div class="portfolio-info">
+                <a href="" class="portfolio-cat">Oven</a>
+                <h3><a href="portfolio-details.html">Cleaning</a></h3>
             </div>
         </div>
     </div>
 </section>
+<!-- Portfolio Section End -->
 
 
+
+</div>
 
 
 @endsection

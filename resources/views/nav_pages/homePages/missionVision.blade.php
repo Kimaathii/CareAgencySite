@@ -1,6 +1,6 @@
 @extends('welcome')
 @section('content')
-
+<div class="content-wrapper">
 <section class="wh-wrap style3 ptb-100 bg-chathamas" style="; margin-top:100px">
     <div class="container">
         <div class="row gx-5 align-items-center">
@@ -124,7 +124,7 @@
     </div>
 </section>
 
-
+</div>
 
 
 @endsection

@@ -1,5 +1,6 @@
 @extends('welcome')
 @section('content')
+<div class="content-wrapper">
  <!-- Breadcrumb Start -->
  <div class="breadcrumb-wrap bg-f br-2">
     <div class="container">
@@ -72,7 +73,7 @@
         </div>
     </div>
 </section>
-
+</div>
 
 
 

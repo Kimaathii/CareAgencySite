@@ -95,7 +95,7 @@ a:focus {
 }
 
 img {
-  max-width: 70%;
+  /* max-width: 70%; */
   height: auto;
 }
 
@@ -3034,7 +3034,7 @@ select {
 }
 
 .br-5 {
-  background-image: url(../img/about/breadcrrumb.png);
+  background-image: url(../img/cleaning/cleaningbg.png);
 }
 
 .breadcrumb-wrap {
@@ -5998,12 +5998,12 @@ select {
   width: 20px;
   height: 8px;
   border-radius: 0;
-  background-color: rgba(36, 144, 235, 0.15);
+  background-color: rgba(145, 85, 167, 0.15);
 }
 
 .portfolio-slider-two.owl-carousel .owl-dots .owl-dot.active span {
   width: 35px;
-  background-color: rgba(36, 144, 235, 0.95);
+  background-color: rgba(145, 85, 167, 0.9);
 }
 
 /*-------------------------------
