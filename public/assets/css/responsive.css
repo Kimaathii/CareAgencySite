@@ -126,7 +126,7 @@
     font-size: 14px;
   }
   .wh-wrap.style2 .wh-img-wrap {
-    height: 520px;
+    height: 200px;
     width: calc(100% - 50px);
   }
   .wh-wrap.style2 .wh-img-wrap .appointment-form {
@@ -364,6 +364,20 @@
 @media only screen and (max-width: 767px) {
   p, input, textarea {
     font-size: 14px;
+    text-align: center;
+  }
+  h6, h3, h2 {
+    text-align: center;
+    margin-top: -10px;
+  }
+  .footer-widget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-widget img{
+    margin-left: 20px;
   }
   .btn {
     font-size: 14px;
@@ -460,6 +474,7 @@
   .content-title h2 {
     font-size: 24px;
     line-height: 1.3;
+    text-align: center;
   }
   .breadcrumb-wrap {
     padding: 60px 0 65px;
@@ -796,10 +811,11 @@
     padding: 0 10px;
   }
   .wh-wrap.style3 .wh-img-wrap {
-    margin-left: 60px;
+    margin-left: 50px;
   }
   .wh-wrap.style3 .wh-img-wrap .wh-bg-3 {
     height: 400px;
+    margin-right: 50px;
   }
   .wh-wrap.style3 .wh-img-wrap .about-doctor-box {
     left: -60px;

@@ -50,7 +50,7 @@
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                 <div class="footer-widget" >
                
-                    <h6 style="margin-top: 74px"><i class="ri-arrow-right-s-line"></i>London Office</h6>
+                    <h6><i class="ri-arrow-right-s-line"></i>London Office</h6>
                     <p>20 Sydenham Road.
 
                         Sydenham

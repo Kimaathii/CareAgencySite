@@ -5378,7 +5378,7 @@ select {
   background-image: url(../img/about/SeniorCaregiver.png);
   height: 620px;
   width: calc(100% - 120px);
-  margin-left: auto;
+  margin: 0 auto;
   background-repeat: no-repeat ;
   background-size: 100%;
   border-radius: 10px;
