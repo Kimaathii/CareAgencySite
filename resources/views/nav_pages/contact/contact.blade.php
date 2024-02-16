@@ -11,7 +11,7 @@
             <div class="breadcrumb-title">
                 <h2>Contact Us</h2>
                 <ul class="breadcrumb-menu list-style">
-                    <li><a href="index.html">Home </a></li>
+                    <li><a href="/">Home </a></li>
                     <li>Contact Us</li>
                 </ul>
             </div>
@@ -26,11 +26,11 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="contact-item">
                         <span class="contact-icon">
-                            <i class="flaticon-map"></i>
+                            <i class='bx bx-current-location'></i>
                         </span>
                         <div class="contact-info">
-                            <h3>Visit Us Anytime</h3>
-                            <p>342/A, Milson Avenue, Brook Lane, San Francisco, USA
+                            <h3>Address</h3>
+                            <p>11 Hollingbury Place, Brighton BN1 7GE, East Sussex
                             </p>
                         </div>
                     </div>
@@ -38,24 +38,27 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="contact-item">
                         <span class="contact-icon">
-                            <i class="flaticon-email-2"></i>
+                            <i class='bx bxs-envelope' ></i>
                         </span>
                         <div class="contact-info">
                             <h3>Send An Email</h3>
-                            <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#6109040d0d0e2115040d084f020e0c"><span class="__cf_email__" data-cfemail="c0a8a5acacaf80b4a5aca9eea3afad">[email&#160;protected]</span></a>
-                            <a href="https://templates.hibotheme.com/cdn-cgi/l/email-protection#96e5e3e6e6f9e4e2d6e2f3faffb8f5f9fb"><span class="__cf_email__" data-cfemail="790a0c0909160b0d390d1c1510571a1614">[email&#160;protected]</span></a>
+                            <a href="#"><span class="__cf_email__" >admin@cyncarehealth.co.uk</span></a>
+                            <a href="#"><span class="__cf_email__" >accounts@cyncarehealth.co.uk</span></a>
+                            <a href="#"><span class="__cf_email__" >recruitment@cyncarehealth.co.uk</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="contact-item">
                         <span class="contact-icon">
-                            <i class="flaticon-call"></i>
+                            <i class='bx bxs-phone-call' ></i>
                         </span>
                         <div class="contact-info">
                             <h3>Call Center</h3>
-                            <a href="tel:88098787868">+44 587 154765</a>
-                            <a href="tel:88098787869">+55 576 234532</a>
+                            <a href="tel:01273973957">01273 973 957</a>
+                            <a href="tel:012723097440">012723097440</a>
+                            {{-- <span>For out of hours emergency and including Safeguard matter</span> --}}
+                            <a href="tel:07359397227">Emergency - 07359397227</a>
                         </div>
                     </div>
                 </div>
@@ -126,9 +129,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-5 col-md-12">
                     <div class="comp-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8385385572983!2d144.95358331584498!3d-37.81725074201705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd5a05d97%3A0x3e64f855a564844d!2s121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sbd!4v1612419490850!5m2!1sen!2sbd">
-                        </iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.305043538145!2d-0.1332258234194748!3d50.84403527166995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa33c40b5203c70d9%3A0xeba755412dfd80bd!2sCyncare%20Health%20Agency%20Ltd!5e0!3m2!1sen!2sng!4v1708090511544!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
