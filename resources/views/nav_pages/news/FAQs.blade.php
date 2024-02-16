@@ -11,7 +11,7 @@
                     <h2>Frequently Asked Questions</h2>
                     <ul class="breadcrumb-menu list-style">
                         <li><a href="index.html">Home </a></li>
-                        <li>FAQ</li>
+                        <li style="color: white">FAQ</li>
                     </ul>
                 </div>
             </div>
@@ -23,17 +23,18 @@
             <div class="container">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="faq-img-wrap">
+                        {{-- <div class="faq-img-wrap">
                             <img src="assets/img/faq-shape.png" alt="Image" class="faq-shape bounce">
                             <img src="assets/img/faq-img-1.jpg" alt="Image" class="faq-img-one">
                             <img src="assets/img/faq-img-2.jpg" alt="Image" class="faq-img-two">
-                        </div>
+                        </div> --}}
                     </div>
-                    <div class="col-lg-6">
+                    <div class="">
                         <div class="faq-content">
                             <div class="content-title style1 mb-40">
-                                <span>FAQ</span>
+                               
                                 <h2>Frequently Asked Questions</h2>
+                                <span style="margin-left:100px">General</span>
                             </div>
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
@@ -45,14 +46,15 @@
                                                 <i class="ri-add-circle-line plus"></i>
                                                 <i class="ri-indeterminate-circle-line minus"></i>
                                             </span>
-                                            Is A Phonecall Considered Telemedicine
+                                            Are your employee vetted?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="single-product-text">
-                                                <p>Lorem ipsum dolor sit amet consec tetur adipisicing elit. Quisquam sit laborum est aliquam. Dicta fuga soluta eius exercitationem porro modi. Exercitationem eveniet aliquam repudiandae non, sequi mollitia at iusto</p>
+                                                <p>
+                                                    Yes, all our employee have gone through rigorous vetting process and training.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -66,17 +68,17 @@
                                                 <i class="ri-add-circle-line plus"></i>
                                                 <i class="ri-indeterminate-circle-line minus"></i>
                                             </span>
-                                            What Equipment Do You Need For Telemedicine?
+                                            Can service user get the same homecare staff regularly
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse "
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Lorem ipsum dolor sit amet consec tetur adipisicing elit. Quisquam sit laborum est aliquam. Dicta fuga soluta eius exercitationem porro modi. Exercitationem eveniet aliquam repudiandae non, sequi mollitia at iusto</p>
+                                            <p>Our aim is to try and match every service user with the right staff, we will ensure you get the same homecare staff regularly but if for any reason we are unable, you will be allocated another care giver. </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
+                                {{-- <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
@@ -115,7 +117,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
