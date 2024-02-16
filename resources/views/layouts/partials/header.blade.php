@@ -78,15 +78,15 @@
         <div class="header-bottom">
             <nav class="navbar navbar-expand-md navbar-light">
                <a class="navbar-brand" href="index.html">
-                    <img class="logo-light" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo">
-                    <img class="logo-dark" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo">     
+                    <img class="logo-light" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo" style="width:60px; height:auto; margin-right:20px" >
+                    <img class="logo-dark" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo" style="width:60px; height:auto; margin-right:20px">     
                 </a>
                 <div class="headerLogotxt">
-                    <a href="#">
+                    <a href="#" >
                         CynCare 
                         <span style="color:#9155A7;"">Health Ltd</span>
                     </a>
-                    <span style="font-style:italic;">.....exceptional healthcare always.....</span>
+                    <span style="font-style:italic;">..exceptional healthcare always.....</span>
                 </div>
                 <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
                     <div class="menu-close d-lg-none">
