@@ -22,6 +22,9 @@
         <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Display:wght@500&display=swap" rel="stylesheet">
     </head>
 
     <body>

@@ -108,7 +108,7 @@ h6 {
   font-weight: 700;
   line-height: 1.4;
   color: #666666;
-  font-family: "Inter", sans-serif;
+  font-family:   "Inter", sans-serif;
 }
 
 body {
@@ -116,6 +116,18 @@ body {
   font-family: "Roboto", sans-serif;
   color: #666666;
 }
+*{
+  font-family: "Raleway", sans-serif;;
+}
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
 
 p {
   font-size: 16px;
@@ -172,10 +184,13 @@ select {
 .missionimg img{
   width: 100%;
 }
-.breadcrumb-title li, a, p, span {
+.breadcrumb-title li {
   color: white;
   text-align: start;
   font-size: 18px;
+}
+.list-style a{
+  color: white;
 }
 .breadcrumb-title  a{
   text-decoration: underline;

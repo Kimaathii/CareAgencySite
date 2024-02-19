@@ -172,7 +172,7 @@
 
             <ul class=" list-style">
                 <li><i class='bx bx-checkbox-minus'></i>Personal care</li>
-                <li><i class='bx bx-checkbox-minus'></i>Companionship care which is a vital service for services users mental and physical wellbeing and it also prevents loneliness and <a  href="https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/loneliness-in-the-elderly/" >isolation in elderly </a></li>
+                <li><i class='bx bx-checkbox-minus'></i>Companionship care which is a vital service for services users mental and physical wellbeing and it also prevents loneliness and <a style="" href="https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/loneliness-in-the-elderly/" >isolation in elderly </a></li>
                 <li><i class='bx bx-checkbox-minus'></i> Dementia care </li>
                 <li><i class='bx bx-checkbox-minus'></i> 24 hours care</li>
                 <li><i class='bx bx-checkbox-minus'></i> Hospital to Home care </li>
@@ -182,13 +182,13 @@
                 <li><i class='bx bx-checkbox-minus'></i> Eating disorders</li>
                 <li><i class='bx bx-checkbox-minus'></i> Mental health conditions</li>
                 <li><i class='bx bx-checkbox-minus'></i> Sensory impairments</li>
-                <p>Our Family member app, will provide you and your family the peace of mind that your loved ones are being given the best they deserve on a daily basis.</p>
-                <p>
+                <p style="color: white; text-align:start">Our Family member app, will provide you and your family the peace of mind that your loved ones are being given the best they deserve on a daily basis.</p>
+                <p style="color: white; text-align:start">
                     Our home care staffs have gone through rigorous checking processes before starting work at Cyncare Health.  You will be given the name of the home care assistant and he or she will be wearing a uniform with a photo identification card. </p>
-                <p>Give us a call to arrange an assessment or alternatively click on book an assessment and fill out the short form and a staff will give you a call. </p>
+                <p style="color: white; text-align:start">Give us a call to arrange an assessment or alternatively click on book an assessment and fill out the short form and a staff will give you a call. </p>
                 
 
-                <span style="font-size: 22px; text-decoration:start; font-weight:600"> How it works</span>
+                <span style="color:white;font-size: 22px; text-decoration:start; font-weight:600"> How it works</span>
                 <li><i class='bx bxs-checkbox-minus' ></i>Our home care staff will book an assessment appointment with you</li>
                 <li><i class='bx bxs-checkbox-minus' ></i>During the visit a risk assessment will be done with you making all of the decisions.</li>
                 <li><i class='bx bxs-checkbox-minus' ></i>After that a clear care plan and package will be offered to you.</li>
