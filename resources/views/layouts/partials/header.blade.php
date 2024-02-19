@@ -261,11 +261,11 @@
                         </li> --}}
                     </ul>
                     <div class="other-options md-none">
-                        <div class="option-item">
+                        {{-- <div class="option-item">
                             <button class="searchbtn"><i class="ri-search-line"></i></button>
-                        </div>
+                        </div> --}}
                         <div class="option-item">
-                            <a href="appointment.html" class="btn style1">Book Appointment</a>
+                            <a href="{{ route('pages.contact') }}" class="btn style1">Book Appointment</a>
                         </div>
                     </div>
                 </div>

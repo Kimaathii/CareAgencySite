@@ -72,7 +72,7 @@
                                 Open a corporate account with us today and  you are sure when you need staffs to cover your shift we will provide well trained staffs for you. You can be rest assured that our office will be there for you from 7am to 11pm daily to pick your calls and match you with the right staff.</p>
                         </div>
                         <div class="option-item">
-                            <a href="appointment.html" class="btn style1">Book Appointment</a>
+                            <a href="{{ route('pages.contact') }}" class="btn style1">Book Appointment</a>
                         </div>
                 </div>
             </div>
