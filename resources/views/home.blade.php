@@ -12,7 +12,7 @@
                                         <h1>Domiciliary care</h1>
                                         <p>Our domiciliary care team are here to support you in your home 24/7 around the clock. We tailor our services to meet your needs and wishes.</p>
                                         <div class="hero-btn">
-                                            <a href="#" class="btn style1">Read More</a>
+                                            <a href="{{ route('service.domicilary') }}" class="btn style1">Read More</a>
                                             {{-- <a class="play-video" data-fancybox="" href="https://www.youtube.com/watch?v=UNSSuTSQI9I">
                                                 <span class="video-icon">
                                                     <i class="ri-play-fill"></i>
@@ -33,7 +33,7 @@
                                         <h1>Staffing</h1>
                                         <p>Need an emergency cover, or a long term rolling cover? we've got you covered! We have well-trained staff to cover all of your shift problems, anytime and any-day. </p>
                                         <div class="hero-btn">
-                                            <a href="#" class="btn style1">Read More</a>
+                                            <a href="{{ route('service.staffing') }}" class="btn style1">Read More</a>
                                             {{-- <a class="play-video" data-fancybox="" href="https://www.youtube.com/watch?v=UNSSuTSQI9I">
                                                 <span class="video-icon">
                                                     <i class="ri-play-fill"></i>
@@ -52,9 +52,9 @@
                                 <div class="col-lg-6">
                                     <div class="hero-content"  data-speed="0.10" data-revert="true">
                                         <h1>Join Us</h1>
-                                        {{-- <p>Ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from making it over old richer.</p> --}}
+                                        <p>At CynCare Health Limited, we believe in making a difference in people's lives every day. As a leading provider of healthcare services in our community, we are dedicated to delivering exceptional care with compassion, integrity, and professionalism.</p>
                                         <div class="hero-btn">
-                                            <a href="#" class="btn style1">Read More</a>
+                                            <a href="{{ route('service.join') }}" class="btn style1">Read More</a>
                                             {{-- <a class="play-video" data-fancybox="" href="https://www.youtube.com/watch?v=UNSSuTSQI9I">
                                                 <span class="video-icon">
                                                     <i class="ri-play-fill"></i>
