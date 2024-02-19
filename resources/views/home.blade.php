@@ -171,9 +171,9 @@
                                 </div>
                                 <div class="blog-info">
                                     
-                                    <h3><a href="blog-details-right-sidebar.html">Homecare Support Assistant</a></h3>
+                                    <h3><a href="{{ route('service.join') }}">Homecare Support Assistant</a></h3>
                                     <p>Homecare Assistants  provide high quality care to service users in their homes. Care tailored to their needs and wishes.</p>
-                                    <a href="blog-details-right-sidebar.html" class="link style2" style="margin-top:50px">Read More<i class="flaticon-right-arrow"></i></a>
+                                    <a href="{{ route('service.join') }}" class="link style2" style="margin-top:50px">Read More<i class="flaticon-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -195,9 +195,9 @@
                                 </div>
                                 <div class="blog-info">
                                     
-                                    <h3><a href="blog-details-right-sidebar.html">Healthcare Assistant</a></h3>
+                                    <h3><a href="{{ route('service.join') }}">Healthcare Assistant</a></h3>
                                     <p>Healthcare Assistants (HCA) provide high quality care for patients in Hospital, residential care/ Nursing Homes. monitoring, observing and recording patient's temperature, weight etc.</p>
-                                    <a href="blog-details-right-sidebar.html" class="link style2" style="margin-top:25px">Read More<i class="flaticon-right-arrow"></i></a>
+                                    <a href="{{ route('service.join') }}" class="link style2" style="margin-top:25px">Read More<i class="flaticon-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -228,9 +228,9 @@
                                 </div>
                                 <div class="blog-info">
                                    
-                                    <h3><a href="blog-details-right-sidebar.html">Nurses</a></h3>
+                                    <h3><a href="{{ route('service.join') }}">Nurses</a></h3>
                                     <p>Nurses provide medical and nursing care for their patient, be it in the homes of their patient, nursing homes or hospital. Nurses monitor the conditions of their patient, providing compassionate care and improving the well-being of their patient.</p>
-                                    <a href="blog-details-right-sidebar.html" class="link style2">Read More<i class="flaticon-right-arrow"></i></a>
+                                    <a href="{{ route('service.join') }}" class="link style2">Read More<i class="flaticon-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>

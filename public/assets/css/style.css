@@ -172,6 +172,14 @@ select {
 .missionimg img{
   width: 100%;
 }
+.breadcrumb-title li, a, p, span {
+  color: white;
+  text-align: start;
+  font-size: 18px;
+}
+.breadcrumb-title  a{
+  text-decoration: underline;
+}
 #vancyId li {
   color: white;
 }

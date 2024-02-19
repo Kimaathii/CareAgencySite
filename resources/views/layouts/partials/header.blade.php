@@ -49,23 +49,23 @@
                         </div>
                         <ul class="social-profile list-style style1">
                             <li>
-                                <a href="https://facebook.com/">
+                                <a href="https://www.facebook.com/cyncarehealth">
                                     <i class="ri-facebook-fill"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/">
+                                <a href="https://twitter.com/Cyncarehealth">
                                     <i class="ri-twitter-fill"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://linkedin.com/">
-                                    <i class="ri-linkedin-fill"></i>
+                                <a href="https://www.youtube.com/user/Wix">
+                                    <i class="ri-youtube-fill"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://pinterest.com/">
-                                    <i class="ri-pinterest-line"></i>
+                                <a href="https://www.instagram.com/cyncarehealth/">
+                                    <i class="ri-instagram-line"></i>
                                 </a>
                             </li>
                         </ul>
