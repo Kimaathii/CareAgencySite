@@ -1,16 +1,19 @@
 <?php
 
 namespace App\Http\Controllers;
-use PDF;
-use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 
 class PdfController extends Controller
 {
-    //
-    public function generatePdf()
+    
+
+    public function viewPdf()
     {
-        $pdf = \PDF::loadView('pdf.template'); // Replace 'pdf.template' with your actual view name
-        return $pdf->stream('document.pdf');
+        // $filename = 'cyncarehealthapplicationform.pdf';
+        // $path = storage_path('app\public\pdfs' . $filename);
+
+        return response()->file('pdfs/cyncarehealthapplicationform.pdf');
     }
-}
+    }
+

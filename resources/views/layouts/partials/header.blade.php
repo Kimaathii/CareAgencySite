@@ -77,7 +77,7 @@
     <div class="container">
         <div class="header-bottom">
             <nav class="navbar navbar-expand-md navbar-light">
-               <a class="navbar-brand" href="index.html">
+               <a class="navbar-brand" href="#">
                     <img class="logo-light" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo" style="width:60px; height:auto; margin-right:20px" >
                     <img class="logo-dark" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo" style="width:60px; height:auto; margin-right:20px">     
                 </a>

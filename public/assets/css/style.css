@@ -195,6 +195,9 @@ select {
 .breadcrumb-title  a{
   text-decoration: underline;
 }
+.breadcrumb-title  ul:nth-child(2) {
+  color: white;
+}
 #vancyId li {
   color: white;
 }
@@ -6227,6 +6230,7 @@ select {
   margin-bottom: 25px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  height: 495px;
 }
 
 .blog-card .blog-img {

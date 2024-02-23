@@ -6,6 +6,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PdfController;
+use App\Http\Controllers\PdftimesheetController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,7 +32,10 @@ Route::get('/Training_service', [ServiceController::class, 'training'])->name('s
 Route::get('/Cleaning_services', [ServiceController::class, 'cleaning'])->name('service.cleaning');
 Route::get('/Domiciliary', [ServiceController::class, 'domiciliary'])->name('service.domicilary');
 Route::get('/Join_us', [ServiceController::class, 'join'])->name('service.join');
-Route::get('/generate-pdf', [PdfController::class, 'generatePdf'])->name('generate.pdf');
+
+Route::get('ApplicationForm', [PdfController::class, 'viewPdf'])->name('pages.viewPdf');
+Route::get('timesheetForm', [PdftimesheetController::class, 'viewtimesheetPdf'])->name('page.viewtimesheetPdf');
+
 
 
 Route::get('/Contact', [ContactController::class, 'contact'])->name('pages.contact');

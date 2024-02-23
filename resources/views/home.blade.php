@@ -81,8 +81,10 @@
                                     {{-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cupiditate sit debitis, aut, perferendis praesentium alias, asperiores similique veniam vitae veritatis.</p> --}}
                                 </div>
                                 <ul class="content-feature-list list-style">
-                                    <li><a href="#"><i class="ri-checkbox-circle-line"></i>Application Form</a></li>
-                                    <li><a href="#"><i class="ri-checkbox-circle-line"></i>Timesheet</a></li>
+                                    <li><a href="{{ route('pages.viewPdf') }}" target="blank" style="color: #9155A7"><i class="ri-checkbox-circle-line"></i>Application Form</a></li>
+
+                                    
+                                    <li><a href="{{ route('page.viewtimesheetPdf') }}" target="blank" style="color: #9155A7"><i class="ri-checkbox-circle-line"></i>Timesheet</a></li>
                                     {{-- <li><i class="ri-checkbox-circle-line"></i>Discount On Treatment Fees</li>
                                     <li><i class="ri-checkbox-circle-line"></i>Multi-Functional Hospital</li>
                                     <li><i class="ri-checkbox-circle-line"></i>20+ Years Of Experience</li>
@@ -173,7 +175,7 @@
                                     
                                     <h3><a href="{{ route('service.join') }}">Homecare Support Assistant</a></h3>
                                     <p>Homecare Assistants  provide high quality care to service users in their homes. Care tailored to their needs and wishes.</p>
-                                    <a href="{{ route('service.join') }}" class="link style2" style="margin-top:50px">Read More<i class="flaticon-right-arrow"></i></a>
+                                    <a href="{{ route('service.join') }}" class="link style2" style="margin-top:110px">Read More<i class="flaticon-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -197,7 +199,7 @@
                                     
                                     <h3><a href="{{ route('service.join') }}">Healthcare Assistant</a></h3>
                                     <p>Healthcare Assistants (HCA) provide high quality care for patients in Hospital, residential care/ Nursing Homes. monitoring, observing and recording patient's temperature, weight etc.</p>
-                                    <a href="{{ route('service.join') }}" class="link style2" style="margin-top:25px">Read More<i class="flaticon-right-arrow"></i></a>
+                                    <a href="{{ route('service.join') }}" class="link style2" style="margin-top:55px">Read More<i class="flaticon-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>

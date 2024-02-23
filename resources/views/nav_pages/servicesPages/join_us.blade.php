@@ -52,7 +52,15 @@
                             </div>
                         </div>
                     </div> --}}
-                    <a href="about.html" class="btn style1">Get More info</a>
+                    <h6 style="color: white">Benefit of working with Cyncare Health</h6>
+                    <ul class="content-feature-list style2 list-style" id="vancyId">
+                    <li><i class="ri-checkbox-circle-line"></i>Flexible working hours</li>
+                    <li><i class="ri-checkbox-circle-line"></i>you can work as much or just for few hours</li>
+                    <li><i class="ri-checkbox-circle-line"></i>24 hours support from Manager</li>
+                    <li><i class="ri-checkbox-circle-line"></i>and so much more.....</li>
+                    </ul>
+
+                    <a href="{{ route('pages.viewPdf') }}" class="btn style1">Apply now</a>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-2 order-md-1 order-1 aos-init" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
