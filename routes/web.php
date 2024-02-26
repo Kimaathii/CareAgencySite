@@ -24,6 +24,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [PageController::class, 'home'])->name('pages.home');
+Route::get('/Training-course', [PageController::class, 'awaitingPage'])->name('pages.await');
+
+
 Route::get('/Our-Mission-and-Vision', [PageController::class, 'returnMissionPage'])->name('pages.missionVision');
 Route::get('/About-Us', [PageController::class, 'about'])->name('pages.about');
 

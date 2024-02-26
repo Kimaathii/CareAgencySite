@@ -23,23 +23,7 @@
     <section class="about-wrap style1 ptb-100">
         <div class="container">
             <div class="row gx-5 align-items-center">
-                {{-- <div class="col-lg-6">
-                    <div class="about-img-wrap">
-                        <img src="assets/img/about/about-img-1.jpg" alt="Image" class="about-img-one">
-                        <img src="assets/img/about/about-img-2.jpg" alt="Image" class="about-img-two">
-                        <div class="about-doctor-box">
-                            <div class="doctor-img">
-                                <img src="assets/img/about/doctor-1.jpg" alt="Image">
-                            </div>
-                            <div class="doctor-info">
-                                <h5>Dr. Kate Winslet</h5>
-                                <span>Radiology</span>
-                            </div>
-                            <button type="button" class="btn style1">Select</button>
-                        </div>
-                    </div>
-                </div> --}}
-                <div class="">
+                <div class="col-lg-6 order-lg-1 order-md-1 order-1 aos-init aos-animate">
                     <div class="about-content">
                         <div class=" style1">
                             {{-- <span>About Our Program</span> --}}
@@ -69,37 +53,31 @@
                                     <li><i class="ri-checkbox-circle-line"></i>E – Empathy.  
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-6 order-lg-1 order-md-1 order-2 aos-init aos-animate">
+                    <div class="about-content">
+                        <div class=" style1">
+                        <div class="row align-items-center">
                                 <span>Working in line with our vision and based on the afore-mentioned values, we set out on our mission of providing healthcare service based on these three objectives: &nbsp;</span>
                                 <ul >
                                     <li>
-                                        <span>- &nbsp; &nbsp;<span style="color:#A676B9">Exceptional service</span> outcome and unique delivery experience for service users, clients and staff &nbsp;</span> 
+                                         &nbsp;<span style="color:#A676B9">Exceptional service</span> outcome and unique delivery experience for service users, clients and staff &nbsp;</span> 
                                     </li>
                                     <li>
-                                        <span>- &nbsp; &nbsp;<span style="color:#A676B9">Fully qualified, trained</span> and continually developing professional workforce with wide-ranging industry experience &nbsp;</span>
+                                         &nbsp;<span style="color:#A676B9">Fully qualified, trained</span> and continually developing professional workforce with wide-ranging industry experience &nbsp;</span>
                                     </li>
                                     <li>
-                                        <span>- &nbsp; &nbsp;Adopting safe and regulatory-compliant organisational processes and practices &nbsp;</span> 
+                                         &nbsp;Adopting safe and regulatory-compliant organisational processes and practices &nbsp;</span> 
                                     </li>
                                 </ul>
                                 <p>A range of home care services can be provided, with assessments carried out before creating care plans to ensure all needs will be met in the preferred ways of the service users. We also provide a Care Agency Service, providing highly qualified, trained staff members, from Carers to Nurses, and to supporting other services. &nbsp;</span>
                                 You can rely on Cyncare Health Ltd. to ensure you or your loved ones receive a high standard, person-centred and unique care with a personal and flexible approach to encourage independence and choice. &nbsp;</p>
                                 <span>Please do not hesitate to contact us today! &nbsp;</span>
-                            </div>
-                            {{-- <div class="col-md-5">
-                                <div class="about-promo-video bg-f">
-                                    <a class="play-now" data-fancybox="" href="https://www.youtube.com/watch?v=UNSSuTSQI9I">
-                                        <i class="ri-play-fill"></i>
-                                        <span class="ripple"></span>
-                                    </a>
-                                </div>
-                            </div> --}}
+                            
                         </div>
-                        {{-- <div class="ceo-msg">
-                            <div class="ceo-img">
-                                <img src="assets/img/about/doctor-2.jpg" alt="Image">
-                            </div>
-                            <p>"Think Hard And Focus On The Patient's Well-Being"</p>
-                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -199,21 +177,18 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="text-center mt-10">
-                <p class="mb-0">We have all kinds of hospital treatment. <a href="service-one.html" class="link style1">View More</a></p>
-            </div> --}}
+            
         </div>
     </div>
     <!-- Counter Section End -->
 
     <!-- Testimonial Section Start -->
-    {{-- <section class="testimonial-wrap style2 ptb-100">
+    <section class="testimonial-wrap style2 ptb-100">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1">
                     <div class="section-title style1 text-center mb-40">
-                        <span>Testimonial</span>
-                        <h2>Our Great Psychitrist Services Provided For You</h2>
+                        <span>Reviews</span>
                     </div>
                 </div>
             </div>
@@ -345,7 +320,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- Testimonial Section End -->
 
     <!-- Why Choose Us Section Start -->

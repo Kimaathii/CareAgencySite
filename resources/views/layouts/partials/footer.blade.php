@@ -5,23 +5,22 @@
             
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                 <div class="footer-widget footxt" style="color: white">
-                    <h3 class="footer-widget-title">Branch Address
-                    </h3>
-                    <h6><i class="ri-arrow-right-s-line"></i>Head Office (Brighton and Hove)</h6>
-                    <p>11 Hollingbury Place. Brighton BN1 7GE</p>
+                    <h3 class="footer-widget-title">Branch Address </h3>
+                    <h6><i class="ri-arrow-right-s-line"></i>Head Office  <br> (Brighton and Hove)</h6>
+                    <p>11 Hollingbury Place. <br> Brighton BN1 7GE</p>
                     <p>Phone No.<br> 01273973957,<br> 01273097440</p>
 
                     <h6><i class="ri-arrow-right-s-line"></i> Cumbria Office</h6>
-                    <p>Unit 12, Fisher Street Galleries
+                    <p>Unit 12, <br>Fisher Street Galleries<br>
                         18 Fisher Street.
-                        Carlisle
+                       <br> Carlisle
                         CA3 8RH
                     </p>
                         <p>Phone No. <br>01228317229</p>
 
 
                     <h6><i class="ri-arrow-right-s-line"></i>Crewe Office</h6>
-                    <p>Room 4, Valentine House
+                    <p>Room 4, <br> Valentine House
 
                         Apollo Buckingham Health Science Campus.
                         
@@ -53,11 +52,9 @@
                     <h6><i class="ri-arrow-right-s-line"></i>London Office</h6>
                     <p>20 Sydenham Road.
 
-                        Sydenham
+                       <br> Sydenham, London.
                         
-                        London.
-                        
-                        SE26 5QW</p>
+                       <br> SE26 5QW</p>
                         <p>Phone No.<br>
 
                             02034900097</p>
@@ -65,11 +62,12 @@
                     <h6><i class="ri-arrow-right-s-line"></i>Bristol Office</h6>
                     <p>Pennywell Road
 
-                        Old Market
+                       <br> Old Market
                         
                         Bristol
                         
-                        BS5 0TG </p>
+                       
+                       <br> BS5 0TG </p>
                     
                 </div>
             </div>
@@ -92,34 +90,9 @@
                     </ul>
                 </div>
                 <div class="footer-widget" style="margin-left: 25px">
-                    <a href="index.html" class="footer-logo" >
-                        <img class="logo-light" src="{{ asset('assets\img\about\CynCareLogo.png') }}" alt="logo" style="border-radius:50%; padding:10px">
-                    </a>
-                    {{-- <p class="comp-desc">
-                        Lorem ipsum dolor sit amet consc tetur adicing elit. Dolor emque dicta molest enim beatae ame consequ atur tempo pretium auctor nam.
-                    </p> --}}
-                    <ul class="social-profile style1 list-style">
-                        <li>
-                            <a href="https://facebook.com/">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/">
-                                <i class="ri-linkedin-fill"></i>
-                            </a>
-                        </li>
-                    </ul>
+                  
+                 
+                   
                 </div>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
@@ -150,12 +123,28 @@
                                 News
                             </a>
                         </li>
-                        {{-- <li>
-                            <a href="contact.html">
-                                <i class="ri-arrow-right-s-line"></i>
-                               Contact Us
+                    </ul>
+                    <ul class="social-profile style1 list-style" style="margin-top:18rem">
+                        <li>
+                            <a href="https://facebook.com/">
+                                <i class="ri-facebook-fill"></i>
                             </a>
-                        </li> --}}
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -83,37 +83,37 @@
                         <div class="category-box">
                             <ul class="list-style">
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="{{ route('pages.await') }}">
                                         Introduction to Caregiving
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="{{ route('pages.await') }}">
                                         Health and Safety
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="{{ route('pages.await') }}">
                                         Medication Administration
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="{{ route('pages.await') }}">
                                         Personal Care Skills
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="{{ route('pages.await') }}">
                                         Specialized Care Training
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="{{ route('pages.await') }}">
                                         Communication and Interpersonal Skills
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service-one.html">
+                                    <a href="{{ route('pages.await') }}">
                                         And lots More
                                     </a>
                                 </li>

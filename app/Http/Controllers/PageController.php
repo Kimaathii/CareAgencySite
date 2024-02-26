@@ -15,4 +15,7 @@ class PageController extends Controller
     function about(){
         return view('nav_pages.homePages.about');
     }
+    function awaitingPage(){
+        return view('awaitingPage');
+    }
 }
