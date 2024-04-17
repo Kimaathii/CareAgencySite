@@ -77,7 +77,7 @@
                     <ul class="contact-info list-style">
                         <li>
                             <i class="flaticon-map"></i>
-                            <h6>Monday -    Friday: 9am -5pm</h6>
+                            <h6>Monday - Friday: 24 Hours</h6>
                         </li>
                         <li>
                             <i class="flaticon-email-1"></i>

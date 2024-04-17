@@ -84,7 +84,7 @@
                 <div class="headerLogotxt">
                     <a href="#" >
                         CynCare 
-                        <span style="color:#9155A7;"">Health Ltd</span>
+                        <span style="color:#C6AA59;"">Health Ltd</span>
                     </a>
                     <span style="font-style:italic;">..exceptional healthcare always.....</span>
                 </div>
@@ -265,7 +265,7 @@
                             <button class="searchbtn"><i class="ri-search-line"></i></button>
                         </div> --}}
                         <div class="option-item">
-                            <a href="{{ route('pages.contact') }}" class="btn style1">Book Appointment</a>
+                            <a href="{{ route('pages.contact') }}" class="btn style1">Book Accessment</a>
                         </div>
                     </div>
                 </div>

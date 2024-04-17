@@ -81,10 +81,10 @@
                                     {{-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cupiditate sit debitis, aut, perferendis praesentium alias, asperiores similique veniam vitae veritatis.</p> --}}
                                 </div>
                                 <ul class="content-feature-list list-style">
-                                    <li><a href="{{ route('pages.viewPdf') }}" target="blank" style="color: #9155A7"><i class="ri-checkbox-circle-line"></i>Application Form</a></li>
+                                    <li><a href="{{ route('pages.viewPdf') }}" target="blank" style="color: #C6AA59"><i class="ri-checkbox-circle-line"></i>Application Form</a></li>
 
                                     
-                                    <li><a href="{{ route('page.viewtimesheetPdf') }}" target="blank" style="color: #9155A7"><i class="ri-checkbox-circle-line"></i>Timesheet</a></li>
+                                    <li><a href="{{ route('page.viewtimesheetPdf') }}" target="blank" style="color: #C6AA59"><i class="ri-checkbox-circle-line"></i>Timesheet</a></li>
                                     {{-- <li><i class="ri-checkbox-circle-line"></i>Discount On Treatment Fees</li>
                                     <li><i class="ri-checkbox-circle-line"></i>Multi-Functional Hospital</li>
                                     <li><i class="ri-checkbox-circle-line"></i>20+ Years Of Experience</li>
