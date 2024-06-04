@@ -481,3 +481,11 @@ function toggleTheme() {
         document.getElementById('slider').checked = true;
     }
 })();
+
+
+const video = document.querySelector('video');
+video.addEventListener('ended', () => {
+    // Restart the video when it ends
+    video.currentTime = 0;
+    video.play();
+});

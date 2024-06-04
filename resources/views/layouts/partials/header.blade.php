@@ -169,7 +169,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="{{ route('pages.faqs') }}" class="nav-link">FAQs</a>
+                                    <a href="{{ route('pages.faqs') }}" target="_blank" class="nav-link">FAQs</a>
                                 </li>
                                 {{-- <li class="nav-item">
                                     <a href="appointment.html" class="nav-link">Book Appointment</a>

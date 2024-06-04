@@ -19,7 +19,7 @@
                         <p>Phone No. <br>01228317229</p>
 
 
-                    <h6><i class="ri-arrow-right-s-line"></i>Crewe Office</h6>
+                    {{-- <h6><i class="ri-arrow-right-s-line"></i>Crewe Office</h6>
                     <p>Room 4, <br> Valentine House
 
                         Apollo Buckingham Health Science Campus.
@@ -32,11 +32,11 @@
                     <p>
                         Phone No.<br>
                         
-                        01270747227</p>
+                        01270747227</p> --}}
 
 
             
-                    
+                     
                   
                
 
@@ -47,9 +47,9 @@
                 </div>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                <div class="footer-widget" >
+                <div class="footer-widget"  style="margin-top: 100px">
                
-                    <h6><i class="ri-arrow-right-s-line"></i>London Office</h6>
+                    {{-- <h6><i class="ri-arrow-right-s-line"></i>London Office</h6>
                     <p>20 Sydenham Road.
 
                        <br> Sydenham, London.
@@ -57,7 +57,7 @@
                        <br> SE26 5QW</p>
                         <p>Phone No.<br>
 
-                            02034900097</p>
+                            02034900097</p> --}}
 
                     <h6><i class="ri-arrow-right-s-line"></i>Bristol Office</h6>
                     <p>Pennywell Road
