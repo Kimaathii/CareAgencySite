@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------
     Theme Name: Teli
-    Theme URI: 
+    Theme URI:
     Description: Teli - Digital Healthcare & Medical Services HTML Template
     Author: HiboTheme
     Author URI: https://hibotheme.com/
@@ -9,7 +9,7 @@
 /*--------------------------------
      =====Table Of Contents====
 
-1.  General Styles 
+1.  General Styles
 2.  Mixins CSS
 3.  Back To Top Button CSS
 4.  Preloader CSS
@@ -29,7 +29,7 @@
 ----------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap");
 /*---------------------------------
-            General Styles 
+            General Styles
 -----------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -140,24 +140,6 @@ p {
   /* color: #666666; */
 }
 
-#myVideo {
-  position: relative;
-  
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-.content {
-  position: relative;
-  top: 50%;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-
 select {
   cursor: pointer;
   -webkit-appearance: none;
@@ -202,7 +184,7 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 .missionimg img{
   width: 100%;
@@ -221,6 +203,13 @@ select {
 .breadcrumb-title  ul:nth-child(2) {
   color: white;
 }
+#breadcolor li{
+  color: black;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
 #vancyId li {
   color: white;
 }
@@ -235,7 +224,7 @@ select {
   display: flex;
   justify-content: center;
   padding: 20px;
-  
+
 }
 .blog-info h3 {
   text-align: center;
@@ -695,7 +684,7 @@ select {
 }
 
 .back-to-top i {
-  
+
   color: #C6AA59;
 }
 
@@ -1142,7 +1131,7 @@ select {
 }
 
 .link.style1 {
-  color: ##C6AA59;
+  color: #C6AA59;
 }
 
 .link.style1:after {
@@ -1920,7 +1909,7 @@ select {
 }
 
 /*---------------------------------
-        Header CSS 
+        Header CSS
 -----------------------------------*/
 @-webkit-keyframes fadeInDown {
   0% {
@@ -3064,7 +3053,7 @@ select {
 }
 
 /*---------------------------------
-       Breadcrumb CSS 
+       Breadcrumb CSS
 -----------------------------------*/
 .br-1 {
   background-image: url(../img/about/breadcrrumb.png);
@@ -7307,7 +7296,7 @@ article {
 }
 
 /*---------------------------------
-        Footer CSS 
+        Footer CSS
 -----------------------------------*/
 .footer-wrap {
   position: relative;

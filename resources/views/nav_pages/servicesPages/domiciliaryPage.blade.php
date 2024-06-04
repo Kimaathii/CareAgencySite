@@ -3,13 +3,13 @@
 
 <div class="content-wrapper">
  <!-- Breadcrumb Start -->
- <div class="content">
+ <div class="breadcrumb-wrap" style="background-color: rgba(1, 50, 31, 0.5);">
     <div class="container">
         <div class="breadcrumb-title">
             <h2>Domicilary</h2>
             <ul class="breadcrumb-menu list-style">
-                <li><a href="/">Home </a></li>
-                <li style="color: white">Domiciliary</li>
+                <li><a href="/">Home</a></li>
+                <li style="color: white">Domicilary</li>
             </ul>
         </div>
     </div>
@@ -101,7 +101,9 @@
             <button type="button" role="presentation" class="owl-prev"><i class="ri-arrow-left-s-line"></i>
             </button>
             <button type="button" role="presentation" class="owl-next"><i class="ri-arrow-right-s-line"></i>
-            </button></div><div class="owl-dots disabled"></div></div>
+            </button>
+        </div>
+            <div class="owl-dots disabled"></div></div>
     </div>
 </section>
 
