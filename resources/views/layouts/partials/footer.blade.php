@@ -10,13 +10,7 @@
                     <p>11 Hollingbury Place. <br> Brighton BN1 7GE</p>
                     <p>Phone No.<br> 01273973957,<br> 01273097440</p>
 
-                    <h6><i class="ri-arrow-right-s-line"></i> Cumbria Office</h6>
-                    <p>Unit 12, <br>Fisher Street Galleries<br>
-                        18 Fisher Street.
-                       <br> Carlisle
-                        CA3 8RH
-                    </p>
-                        <p>Phone No. <br>01228317229</p>
+      
 
 
                     {{-- <h6><i class="ri-arrow-right-s-line"></i>Crewe Office</h6>
@@ -47,7 +41,7 @@
                 </div>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                <div class="footer-widget"  style="margin-top: 100px">
+                <div class="footer-widget"  style="margin-top: 30px">
                
                     {{-- <h6><i class="ri-arrow-right-s-line"></i>London Office</h6>
                     <p>20 Sydenham Road.
@@ -58,7 +52,7 @@
                         <p>Phone No.<br>
 
                             02034900097</p> --}}
-
+                            <h3 class="footer-widget-title"></h3>
                     <h6><i class="ri-arrow-right-s-line"></i>Bristol Office</h6>
                     <p>Pennywell Road
 
@@ -72,21 +66,29 @@
                 </div>
             </div>
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                <div class="footer-widget">
-                    <h3 class="footer-widget-title" style="margin-left: 25px">Opening Hours</h3>
+                <div class="footer-widget" style="margin-top: 30px;">
+                    <h3 class="footer-widget-title" style="margin-left: 25px"></h3>
                     <ul class="contact-info list-style">
                         <li>
                             <i class="flaticon-map"></i>
-                            <h6>Monday - Friday: 24 Hours</h6>
+                            {{-- <h6>Monday - Friday: 24 Hours</h6> --}}
                         </li>
-                        <li>
+                        <h6><i class="ri-arrow-right-s-line"></i> Cumbria Office</h6>
+                        <p>Unit 12, <br>Fisher Street Galleries<br>
+                            18 Fisher Street.
+                           <br> Carlisle
+                            CA3 8RH
+                        </p>
+                            <p>Phone No. <br>01228317229</p>
+                        
+                        {{-- <li>
                             <i class="flaticon-email-1"></i>
                             <h6>Saturday-    Closed</h6>
                         </li>
                         <li>
                             <i class="flaticon-phone-call-1"></i>
                             <h6>Sunday  -    Closed</h6>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
                 <div class="footer-widget" style="margin-left: 25px">

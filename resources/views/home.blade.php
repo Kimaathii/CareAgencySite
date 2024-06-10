@@ -675,7 +675,147 @@
             </section> --}}
             <!-- Team Section End -->
 
-            
+              <!-- Testimonial Section Start -->
+              <section class="testimonial-wrap style2 ptb-100 bg-athens">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                            <div class="section-title style1 text-center mb-40">
+                                <span>Testimonies</span>
+                                <h2>Our Client Reviews</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider-two owl-carousel">
+                        <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                            <div class="client-info-area">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-1.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h3>Jim Morison</h3>
+                                        <span>Director, BAT</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="flaticon-straight-quotes"></i>
+                                </div>
+                            </div>
+                            <ul class="ratings list-style">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
+                        </div>
+                        <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
+                            <div class="client-info-area">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-2.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h3>Alex Cruis</h3>
+                                        <span>CEO, IBAC</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="flaticon-straight-quotes"></i>
+                                </div>
+                            </div>
+                            <ul class="ratings list-style">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
+                        </div>
+                        <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+                            <div class="client-info-area">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-3.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h3>Tom Haris</h3>
+                                        <span>Engineer, Olleo</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="flaticon-straight-quotes"></i>
+                                </div>
+                            </div>
+                            <ul class="ratings list-style">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
+                        </div>
+                        <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
+                            <div class="client-info-area">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-4.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h3>Harry Jackson</h3>
+                                        <span>Enterpreneur</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="flaticon-straight-quotes"></i>
+                                </div>
+                            </div>
+                            <ul class="ratings list-style">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
+                        </div>
+                        <div class="testimonial-card style2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
+                            <div class="client-info-area">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-5.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h3>Chris Haris</h3>
+                                        <span>MD, ITec</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="flaticon-straight-quotes"></i>
+                                </div>
+                            </div>
+                            <ul class="ratings list-style">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <p class="client-quote">Lorem ipsum dolor sit amet adip selection repellat tetur delni vel quam aliq earu expel dolor eme fugiat enim amet sit dolor.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-8">
+                            <p class="mb-0 md-center">Are you impressed?Do you want to take our service here? <a href="#" class="link style1">Book An Accessment</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial Section End --> 
 
             <!-- Appointment Section Start -->
             {{-- <section class="appointment-wrap style3 ptb-100 bg-athens">
@@ -846,7 +986,7 @@
                     </div>
                 </div>
             </section> --}}
-            <!-- Testimonial Section End -->
+            <!-- Testimonial Section End --> 
 
             <!-- Pricing Section Start -->
             {{-- <section class="pricing-wrap pt-100 pb-75">
